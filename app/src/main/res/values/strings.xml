@@ -11,4 +11,7 @@
     <string name="title_activity_note_view">NoteView</string>
     <string name="SaveSuccess">ЗАМЕТКА УСПЕШНО СОХРАНЕНА</string>
     <string name="SaveFaild">ЗАМЕТКА НЕ СОХРАНЕНА</string>
+    <string name="content">Введите текст...</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="title">Заголовок</string>
 </resources>

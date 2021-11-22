@@ -2,9 +2,9 @@ package com.kazbekovainur.notes
 
 interface NoteView {
 
-    /** Сохранено успешно */
+    /** Успешное сохранение заметки */
     fun onSaveSuccessNotes()
 
-    /** Не сохранено */
+    /** Попытка сохранения пустой заметки */
     fun onSaveFaildNotes()
 }

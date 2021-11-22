@@ -4,8 +4,8 @@ import android.content.ContentValues.TAG
 import android.util.Log
 
 class NotePresenter (var view: NoteView?) {
-
-    fun tryToSave(HeadTitle: String, content: String) {
+    /** Проверка заметки на наличие текста*/
+    fun tryToSave(headTitle: String, content: String) {
         if (content.isEmpty()) {
             Log.d(
                 TAG,
@@ -13,14 +13,14 @@ class NotePresenter (var view: NoteView?) {
             )
             view?.onSaveFaildNotes()
         } else {
-            onSaveSuccess(HeadTitle, content)
+            onSaveSuccess(headTitle, content)
         }
     }
 
-    private fun onSaveSuccess(HeadTitle: String, content: String){
+    private fun onSaveSuccess(headTitle: String, content: String){
         Log.d(
             TAG,
-            "Заметка успешно сохранена! Заголовок: $HeadTitle, Текст: $content"
+            "Заметка успешно сохранена! Заголовок: $headTitle, Текст: $content"
         )
         view?.onSaveSuccessNotes()
     }
