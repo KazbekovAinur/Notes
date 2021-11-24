@@ -17,6 +17,16 @@ class NotePresenter (var view: NoteView?) {
         }
     }
 
+    /** Открытие страницы About */
+    fun openAboutActivity(){
+        view?.goToAboutActivity()
+    }
+
+    /** Отправка заметки во внешнее приложение устройства  */
+    fun sendEmailToApp(title: String, content: String){
+        view?.onSendEmail(title,content)
+    }
+
     private fun onSaveSuccess(headTitle: String, content: String){
         Log.d(
             TAG,

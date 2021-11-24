@@ -14,4 +14,6 @@
     <string name="content">Введите текст...</string>
     <string name="btn_save">Сохранить</string>
     <string name="title">Заголовок</string>
+    <string name="send">Поделиться</string>
+    <string name="about">О программе</string>
 </resources>
