@@ -16,4 +16,6 @@
     <string name="title">Заголовок</string>
     <string name="send">Поделиться</string>
     <string name="about">О программе</string>
+    <string name="aboutText">Приложение Заметки</string>
+    <string name="version">Версия 1.0.0</string>
 </resources>

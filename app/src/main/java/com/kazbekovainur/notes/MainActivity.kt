@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity(), NoteView {
                     presenter?.openAboutActivity()
                 }
             }
+
             btnSend = findViewById<Button>(R.id.btnSend).also {
                 it.setOnClickListener {
                     presenter?.sendEmailToApp(
