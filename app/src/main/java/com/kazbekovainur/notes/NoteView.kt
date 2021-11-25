@@ -8,7 +8,7 @@ interface NoteView {
     /** Попытка сохранения пустой заметки */
     fun onSaveFaildNotes()
 
-    /** Отправка заметки во внешнее приложение */
+    /** Неявный вызов приложений устройства для отправки текста заметки */
     fun onSendEmail(title: String, content: String)
 
     /** Переход на страницу About */
