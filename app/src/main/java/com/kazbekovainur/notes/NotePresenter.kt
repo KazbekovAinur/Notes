@@ -3,6 +3,11 @@ package com.kazbekovainur.notes
 import android.content.ContentValues.TAG
 import android.util.Log
 
+/**
+ * Простой презентер для [NoteView]
+ *
+ * @property view вью, к которой имеем доступ через интерфейс
+ */
 class NotePresenter (var view: NoteView?) {
     /** Проверка заметки на наличие текста*/
     fun tryToSave(headTitle: String, content: String) {
